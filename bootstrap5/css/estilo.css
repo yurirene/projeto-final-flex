@@ -1,6 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+.texto-negrito {
+    font-weight: bold;
+}
+
 .texto-azul {
     color: #242f51;
 }
@@ -45,4 +50,93 @@ body {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
+}
+
+#segunda {
+    padding: 100px 0;
+}
+
+#terceira {
+    padding: 100px 0;
+}
+
+.motivos-item  {
+    padding: 0 30px;
+}
+
+.motivos-linha {
+    margin-top: 70px;
+}
+
+#quarta {
+    padding: 100px 0;
+}
+.accordion-button {
+    background-color: #f5f6fa;
+    color: #242f51;
+    font-weight: bold;
+    padding: 25px 50px;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #f5f6fa;
+    color: #242f51;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.accordion-body {
+    background-color: #f5f6fa;
+    color: #616368;
+    padding: 25px 50px;
+}
+
+.accordion-item {
+    margin-top: 15px;
+    border: none;
+}
+
+#quinta {
+    padding-top: 100px;
+}
+
+.coluna-deslocada {
+    margin-top: -40px;
+}
+
+#rodape {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    background-color: #242f51;
+    margin-top: -40px;
+}
+
+#menu-rodape {
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+#menu-rodape li{
+    display: inline-block;
+    color: #fff;
+    padding: 0 25px;
+}
+
+#marcas {
+    margin-top: 30px;
+    margin-left: -25px;
+}
+
+#marcas li {
+    display: inline-block;
+    color: #616368;
+    font-size: 30px;
+    padding: 0 15px;
+}
+#marcas li:hover {
+    color: #fff;
+}
+
+.direitos {
+    color: #616368;
+    margin-top: 60px;
 }
